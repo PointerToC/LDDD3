@@ -1,7 +1,9 @@
 #!/bin/bash
 
-export TOOLCHAIN_PATH="${HOME}/Downloads/gcc-linaro-5.1-2015.08-x86_64_arm-linux-gnueabi/bin"
-export PATH="${TOOLCHAIN_PATH}:${PATH}"
+# export TOOLCHAIN_PATH="${HOME}/tools/gcc-linaro-5.1-2015.08-x86_64_arm-linux-gnueabi/bin"
+# export PATH="${TOOLCHAIN_PATH}:${PATH}"
+export PATH="${HOME}/tools/gcc-linaro-5.1-2015.08-x86_64_arm-linux-gnueabi/bin:${PATH}"
+
 export ARCH=arm
 export EXTRADIR=${PWD}/extra
 export CROSS_COMPILE=arm-linux-gnueabi-
